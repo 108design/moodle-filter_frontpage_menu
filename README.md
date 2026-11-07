@@ -2,9 +2,9 @@
 
 Display an existing Menu Builder menu in Moodle text using
 `[[frontpage-menu:<stable-definition-key>]]`. Enable the filter in Moodle and
-use the key of the menu you want to display. Requires either 108design Frontpage
-or the standalone Menu Builder.
+use the key of the menu you want to display. Set up the menu in Menu Builder
+before using the shortcode.
 
 ## License
 
-This is a 108design source-available commercial software license, not an open-source license. See [LICENSE.md](https://github.com/108design/moodle-filter_frontpage_menu/blob/main/LICENSE.md) for the full terms.
+See [LICENSE.md](LICENSE.md) for the 108design Software License.
