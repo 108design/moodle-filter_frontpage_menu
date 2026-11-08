@@ -6,10 +6,19 @@
 
 Insert a saved Menu Builder menu into Moodle content with a shortcode. Use it to add a set of navigation links within a Page activity or another text area where Moodle runs filters. Edit the menu in Menu Builder to update every place that uses its shortcode.
 
+## Screenshots
+
+<details>
+<summary>View screenshots</summary>
+
+![Menu embedded in course content](docs/screenshots/menu-filter-content.jpg)
+
+</details>
+
 ## Requirements and installation
 
 - Moodle 4.5 through 5.3.
-- A saved menu in [Menu Builder](https://github.com/108design/moodle-local_menubuilder-le). If you already manage your menus in Frontpage, you can use those menus as sources too.
+- A saved menu in [Menu Builder](https://github.com/108design/moodle-local_menubuilder-le).
 
 Download the signed installation ZIP from the [latest release](https://github.com/108design/moodle-filter_frontpage_menu/releases/latest). Upload it under **Site administration > Plugins > Install plugins**. For a manual installation, place the `frontpage_menu` directory in `filter/` and complete the upgrade under **Site administration > Notifications**. [Moodle installation guide](https://docs.moodle.org/503/en/Installing_plugins)
 
