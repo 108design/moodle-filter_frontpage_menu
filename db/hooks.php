@@ -26,9 +26,15 @@ $callbacks[] = [
     'callback' => [\filter_frontpage_menu\local\admin_branding::class, 'prepare'],
 ];
 
-// Independent signed update-package guard.
+// Native installation and updates are handled by Moodle Core.
+
+// Optional package information; Core owns preview, confirmation and installation.
 $callbacks[] = [
     'hook' => \core\hook\after_config::class,
-    'callback' => [\filter_frontpage_menu\local\update_guard::class, 'after_config'],
-    'priority' => 1002,
+    'callback' => [\filter_frontpage_menu\local\update_notice::class, 'after_config'],
+    'priority' => 1003,
+];
+$callbacks[] = [
+    'hook' => \core\hook\output\before_standard_top_of_body_html_generation::class,
+    'callback' => [\filter_frontpage_menu\local\update_notice::class, 'before_body'],
 ];
