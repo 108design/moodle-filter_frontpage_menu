@@ -26,6 +26,8 @@
 "/lang" -export-ignore -export-subst
 "/lang/de" -export-ignore -export-subst
 "/lang/de/filter_frontpage_menu.php" -export-ignore -export-subst
+"/lang/de_du" -export-ignore -export-subst
+"/lang/de_du/filter_frontpage_menu.php" -export-ignore -export-subst
 "/lang/en" -export-ignore -export-subst
 "/lang/en/filter_frontpage_menu.php" -export-ignore -export-subst
 "/pix" -export-ignore -export-subst
